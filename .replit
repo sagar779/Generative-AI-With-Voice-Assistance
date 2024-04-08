@@ -6,3 +6,7 @@ hidden = [".config", "package-lock.json"]
 [deployment]
 run = ["node", "index.js"]
 deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
